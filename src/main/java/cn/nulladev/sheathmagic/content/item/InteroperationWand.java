@@ -11,7 +11,10 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.SlotAccess;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.inventory.ClickAction;
+import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
@@ -20,6 +23,7 @@ import net.minecraft.world.level.Level;
 
 import javax.annotation.Nullable;
 import java.util.List;
+import java.util.Optional;
 
 public class InteroperationWand extends Item {
     private static final String TAG_WAND_CORE = "wand_core";
@@ -75,8 +79,7 @@ public class InteroperationWand extends Item {
 
         if (core.getItem() instanceof BaseConceptCore coreItem) {
             return coreItem.getTotalCooldown();
-        }
-        else {
+        } else {
             return 0;
         }
     }
@@ -162,5 +165,44 @@ public class InteroperationWand extends Item {
         }
 
         return InteractionResultHolder.pass(itemStackInHand);
+    }
+
+    @Override
+    public boolean overrideStackedOnOther(ItemStack wand, Slot slot, ClickAction clickAction, Player player) {
+        if (clickAction == ClickAction.SECONDARY && slot.allowModification(player)) {
+            var slotStack = slot.getItem();
+            if (slotStack.isEmpty()) {
+                removeCore(wand).ifPresent(slot::safeInsert);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public boolean overrideOtherStackedOnMe(ItemStack wand, ItemStack slotStack, Slot slot, ClickAction clickAction, Player player, SlotAccess slotAccess) {
+        if (clickAction == ClickAction.SECONDARY && slot.allowModification(player)) {
+            if (slotStack.isEmpty()) {
+                removeCore(wand).ifPresent(slotAccess::set);
+                return true;
+            } else {
+                if (slotStack.getItem() instanceof ConceptCoreWand) {
+                    InteroperationWand.writeTagCore(wand, slotStack);
+                    slotStack.shrink(1);
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private static Optional<ItemStack> removeCore(ItemStack wand) {
+        if (!InteroperationWand.hasCore(wand)) {
+            return Optional.empty();
+        } else {
+            var core = InteroperationWand.readTagWandCore(wand);
+            writeTagCore(wand, ItemStack.EMPTY);
+            return Optional.of(core);
+        }
     }
 }
