@@ -9,7 +9,6 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.context.UseOnContext;
@@ -79,25 +78,4 @@ public interface ConceptCoreWand {
         return replaceBlock(ctx, toBeRemoved, Blocks.AIR);
     }
 
-    static InteractionResult fertilize(UseOnContext ctx) {
-        var level = ctx.getLevel();
-        var blockPos = ctx.getClickedPos();
-        var targetBlockState = level.getBlockState(blockPos);
-
-        if (targetBlockState.getBlock() instanceof BonemealableBlock bonemealableBlock) {
-            if (bonemealableBlock.isValidBonemealTarget(level, blockPos, targetBlockState, level.isClientSide)) {
-                if (level instanceof ServerLevel) {
-                    if (bonemealableBlock.isBonemealSuccess(level, level.random, blockPos, targetBlockState)) {
-                        bonemealableBlock.performBonemeal((ServerLevel) level, level.random, blockPos, targetBlockState);
-                    }
-
-                    level.levelEvent(1505, blockPos, 0);
-                }
-
-                return InteractionResult.SUCCESS;
-            }
-        }
-
-        return InteractionResult.PASS;
-    }
 }

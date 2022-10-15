@@ -28,7 +28,6 @@ import java.util.Optional;
 public class InteroperationWand extends Item {
     private static final String TAG_WAND_CORE = "wand_core";
 
-
     public InteroperationWand(Properties props) {
         super(props.stacksTo(1));
     }
@@ -62,7 +61,7 @@ public class InteroperationWand extends Item {
         ItemStack core = readTagWandCore(wand);
 
         if (!core.isEmpty())
-            return BaseConceptCore.readTagCooldown(core);
+            return ItemCooldown.readTagCooldown(core);
         else
             return 0;
     }
@@ -71,7 +70,7 @@ public class InteroperationWand extends Item {
         ItemStack core = readTagWandCore(wand);
 
         if (!core.isEmpty())
-            BaseConceptCore.writeTagCooldown(core, cd);
+            ItemCooldown.writeTagCooldown(core, cd);
     }
 
     private static int getCoreCooldown(ItemStack wand) {
@@ -174,6 +173,9 @@ public class InteroperationWand extends Item {
             if (slotStack.isEmpty()) {
                 removeCore(wand).ifPresent(slot::safeInsert);
                 return true;
+            } else if (slotStack.getItem() instanceof ConceptCoreWand) {
+                InteroperationWand.writeTagCore(wand, slotStack.split(1));
+                return true;
             }
         }
         return false;
@@ -196,7 +198,7 @@ public class InteroperationWand extends Item {
         return false;
     }
 
-    private static Optional<ItemStack> removeCore(ItemStack wand) {
+    public static Optional<ItemStack> removeCore(ItemStack wand) {
         if (!InteroperationWand.hasCore(wand)) {
             return Optional.empty();
         } else {

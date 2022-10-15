@@ -2,9 +2,8 @@ package cn.nulladev.sheathmagic.init.registrate;
 
 import cn.nulladev.sheathmagic.content.item.CoreComponent;
 import cn.nulladev.sheathmagic.content.item.InteroperationWand;
-import cn.nulladev.sheathmagic.content.item.conceptcore.SimpleFoodConceptCore;
-import cn.nulladev.sheathmagic.content.item.conceptcore.SimplePlacementConceptCore;
-import cn.nulladev.sheathmagic.content.item.conceptcore.SimpleThrownConceptCore;
+import cn.nulladev.sheathmagic.content.item.SpaceCrystal;
+import cn.nulladev.sheathmagic.content.item.conceptcore.*;
 import dev.xkmc.l2library.repack.registrate.util.entry.ItemEntry;
 import net.minecraft.world.entity.projectile.Snowball;
 import net.minecraft.world.entity.projectile.ThrownEgg;
@@ -14,6 +13,8 @@ import net.minecraft.world.level.block.Blocks;
 import static cn.nulladev.sheathmagic.init.SheathMagic.REGISTRATE;
 
 public class SMItems {
+
+    /* Components */
 
     // Basic components that can be crafted in crafting table.
     public static final ItemEntry<CoreComponent> CORE_AMPLIFIER = REGISTRATE.item("core_amplifier", CoreComponent::new).defaultModel().defaultLang().register();
@@ -27,7 +28,7 @@ public class SMItems {
     public static final ItemEntry<CoreComponent> CORE_MODIFIER_DARK_BOX =
             REGISTRATE.item("core_modifier_dark_box", CoreComponent::new).defaultModel().defaultLang().register();
     public static final ItemEntry<CoreComponent> CORE_MODIFIER_FALL =
-            REGISTRATE.item("core_modifier_fall", CoreComponent::new).defaultModel().defaultLang().register();
+            REGISTRATE.item("core_modifier_falling", CoreComponent::new).defaultModel().defaultLang().register();
     public static final ItemEntry<CoreComponent> CORE_MODIFIER_SHULKER =
             REGISTRATE.item("core_modifier_shulker", CoreComponent::new).defaultModel().defaultLang().register();
     public static final ItemEntry<CoreComponent> CORE_MODIFIER_SNOW_GOLEM =
@@ -43,11 +44,13 @@ public class SMItems {
     public static final ItemEntry<CoreComponent> CORE_MODIFIER_ENDERMITE =
             REGISTRATE.item("core_modifier_endermite", CoreComponent::new).defaultModel().defaultLang().register();
 
-    // Interoperation Wand
+    /* Interoperation Wand */
     public static final ItemEntry<InteroperationWand> INTEROPERATION_WAND =
             REGISTRATE.item("interoperation_wand", InteroperationWand::new).defaultModel().defaultLang().register();
 
-    // Concept Core
+    /* Concept Cores */
+
+    // Simple concept cores
     public static final ItemEntry<SimplePlacementConceptCore> CONCEPT_CORE_COBBLESTONE =
             REGISTRATE.item(
                     "concept_core_cobblestone",
@@ -144,6 +147,95 @@ public class SMItems {
                     "concept_core_glow_berries",
                     (p) -> new SimpleFoodConceptCore(p, 86400, 2, 0.2f)
             ).defaultModel().defaultLang().register();
+
+    // Non simple concept cores
+    public static final ItemEntry<AttachmentConceptCore> CONCEPT_CORE_ATTACHMENT =
+            REGISTRATE.item(
+                    "concept_core_attachment",
+                    AttachmentConceptCore::new
+            ).defaultModel().defaultLang().register();
+
+    public static final ItemEntry<BoneMealConceptCore> CONCEPT_CORE_BONE_MEAL =
+            REGISTRATE.item(
+                    "concept_core_bone_meal",
+                    (p) -> new BoneMealConceptCore(p, 12000)
+            ).defaultModel().defaultLang().register();
+
+
+    public static final ItemEntry<BoneMealConceptCore> CONCEPT_CORE_BONE_MEAL_ADVANCED =
+            REGISTRATE.item(
+                    "concept_core_bone_meal_advanced",
+                    (p) -> new BoneMealConceptCore(p, 2)
+            ).defaultModel().defaultLang().register();
+
+    public static final ItemEntry<FallingBlockConceptCore> CONCEPT_CORE_FALLING_BLOCK =
+            REGISTRATE.item(
+                    "concept_core_falling_block",
+                    FallingBlockConceptCore::new
+            ).defaultModel().defaultLang().register();
+
+    public static final ItemEntry<FrameBreakerConceptCore> CONCEPT_CORE_FRAME_BREAKER =
+            REGISTRATE.item(
+                    "concept_core_frame_breaker",
+                    FrameBreakerConceptCore::new
+            ).defaultModel().defaultLang().register();
+
+
+    public static final ItemEntry<LevelEaterConceptCore> CONCEPT_CORE_LEVEL_EATER =
+            REGISTRATE.item(
+                    "concept_core_level_eater",
+                    LevelEaterConceptCore::new
+            ).defaultModel().defaultLang().register();
+
+
+    public static final ItemEntry<TNTConceptCore> CONCEPT_CORE_TNT =
+            REGISTRATE.item(
+                    "concept_core_tnt",
+                    TNTConceptCore::new
+            ).defaultModel().defaultLang().register();
+
+
+    public static final ItemEntry<VillagerSpawnConceptCore> CONCEPT_CORE_VILLAGER_SPAWN =
+            REGISTRATE.item(
+                    "concept_core_villager_spawn",
+                    VillagerSpawnConceptCore::new
+            ).defaultModel().defaultLang().register();
+
+    // Machine output only concept cores
+    public static final ItemEntry<BaseConceptCore> CONCEPT_CORE_GHAST =
+            REGISTRATE.item(
+                    "concept_core_ghast",
+                    (p) -> new BaseConceptCore(p, 200)
+            ).defaultModel().defaultLang().register();
+
+    public static final ItemEntry<BaseConceptCore> CONCEPT_CORE_GOLD =
+            REGISTRATE.item(
+                    "concept_core_gold",
+                    (p) -> new BaseConceptCore(p, 200)
+            ).defaultModel().defaultLang().register();
+
+    public static final ItemEntry<BaseConceptCore> CONCEPT_CORE_IRON =
+            REGISTRATE.item(
+                    "concept_core_iron",
+                    (p) -> new BaseConceptCore(p, 300)
+            ).defaultModel().defaultLang().register();
+
+    public static final ItemEntry<BaseConceptCore> CONCEPT_CORE_MOB_GRINDER =
+            REGISTRATE.item(
+                    "concept_core_mob_grinder",
+                    (p) -> new BaseConceptCore(p, 100)
+            ).defaultModel().defaultLang().register();
+
+    /* Space Crystal */
+
+    public static final ItemEntry<SpaceCrystal> SPACE_CRYSTAL_BASIC =
+            REGISTRATE.item("space_crystal_basic", (p) -> new SpaceCrystal(p, 3)).register();
+
+    public static final ItemEntry<SpaceCrystal> SPACE_CRYSTAL_ADVANCED =
+            REGISTRATE.item("space_crystal_advanced", (p) -> new SpaceCrystal(p, 3)).register();
+
+    public static final ItemEntry<SpaceCrystal> SPACE_CRYSTAL_ULTIMATE =
+            REGISTRATE.item("space_crystal_ultimate", (p) -> new SpaceCrystal(p, 3)).register();
 
     public static void register() {}
 }

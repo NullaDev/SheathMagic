@@ -1,10 +1,12 @@
-package cn.nulladev.sheathmagic.content.item.conceptcore;
+package cn.nulladev.sheathmagic.content.item;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.item.ItemStack;
 
-public interface ConceptCoreContainable {
-    String TAG_CONTENT = "content";
+import java.util.Optional;
+
+public interface ItemContainable {
+    String TAG_CONTENT = "sheath_content";
 
     static ItemStack readTagContent(ItemStack item) {
         if (item.getOrCreateTag().contains(TAG_CONTENT)) {
@@ -24,8 +26,15 @@ public interface ConceptCoreContainable {
         return !(readTagContent(item).isEmpty());
     }
 
-    static boolean isValid(ItemStack item, ItemStack compare) {
-        var content = readTagContent(item);
-        return  (item.getItem() == compare.getItem());
+    boolean isContentValid(ItemStack item);
+
+    static Optional<ItemStack> removeContent(ItemStack item) {
+        if (!hasContent(item)) {
+            return Optional.empty();
+        } else {
+            var content = readTagContent(item);
+            writeTagContent(item, ItemStack.EMPTY);
+            return Optional.of(content);
+        }
     }
 }

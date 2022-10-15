@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_top",
+    "textures": {
+		"top": "vanillamagic:block/automatic_collector_top",
+		"side": "vanillamagic:block/automatic_collector_side"
+    }
+}
+

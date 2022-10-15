@@ -2,6 +2,7 @@ package cn.nulladev.sheathmagic.init;
 
 import cn.nulladev.sheathmagic.init.registrate.SMCreativeModeTab;
 import cn.nulladev.sheathmagic.init.registrate.SMItems;
+import cn.nulladev.sheathmagic.init.registrate.SMMenus;
 import cn.nulladev.sheathmagic.init.registrate.SMRecipes;
 import com.mojang.logging.LogUtils;
 import dev.xkmc.l2library.base.L2Registrate;
@@ -20,6 +21,7 @@ public class SheathMagic {
         SMCreativeModeTab.register();
         SMItems.register();
         SMRecipes.register(bus);
+        SMMenus.register();
     }
 
     public SheathMagic() {
