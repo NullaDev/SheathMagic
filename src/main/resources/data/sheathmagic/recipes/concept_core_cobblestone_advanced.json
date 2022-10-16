@@ -1,0 +1,33 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_cobblestone_advanced",
+    "count": 1
+  },
+  "pattern": [
+    "AAAA",
+    "BBBB",
+    "CCCC",
+    "DE F"
+  ],
+  "key": {
+    "A": {
+      "item": "sheathmagic:core_modifier_pulse"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "sheathmagic:concept_core_cobblestone"
+    },
+    "D": {
+      "item": "minecraft:water_bucket"
+    },
+    "E": {
+      "item": "sheathmagic:concept_core_tnt"
+    },
+    "F": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

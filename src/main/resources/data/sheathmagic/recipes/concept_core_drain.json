@@ -1,0 +1,27 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_drain",
+    "count": 1
+  },
+  "pattern": [
+    "    ",
+    "  AB",
+    "  C ",
+    "  D "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:sponge"
+    },
+    "B": {
+      "item": "sheathmagic:world_interoperation_io"
+    },
+    "C": {
+      "item": "minecraft:furnace"
+    },
+    "D": {
+      "item": "sheathmagic:infinite_fuel"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_glow_berries",
+    "count": 1
+  },
+  "pattern": [
+    "ABC",
+    " D ",
+    "E  "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:glow_berries"
+    },
+    "B": {
+      "item": "minecraft:observer"
+    },
+    "C": {
+      "item": "minecraft:redstone"
+    },
+    "D": {
+      "item": "minecraft:piston"
+    },
+    "E": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

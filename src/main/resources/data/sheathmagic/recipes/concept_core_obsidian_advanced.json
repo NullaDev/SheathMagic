@@ -1,0 +1,55 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_obsidian_advanced",
+    "count": 1
+  },
+  "pattern": [
+    "A  BC",
+    "   DE",
+    " FG H",
+    "IJK  ",
+    "  LM "
+  ],
+  "key": {
+    "A": {
+      "item": "sheathmagic:core_modifier_update_end"
+    },
+    "B": {
+      "item": "minecraft:grindstone"
+    },
+    "C": {
+      "item": "sheathmagic:concept_core_snowball"
+    },
+    "D": {
+      "item": "sheathmagic:core_modifier_wither"
+    },
+    "E": {
+      "item": "minecraft:dispenser"
+    },
+    "F": {
+      "item": "minecraft:water_bucket"
+    },
+    "G": {
+      "item": "sheathmagic:concept_core_cobblestone"
+    },
+    "H": {
+      "item": "sheathmagic:core_modifier_pulse_controllable"
+    },
+    "I": {
+      "item": "sheathmagic:core_modifier_snow_golem"
+    },
+    "J": {
+      "item": "minecraft:soul_sand"
+    },
+    "K": {
+      "item": "minecraft:piston"
+    },
+    "L": {
+      "item": "sheathmagic:core_modifier_pulse"
+    },
+    "M": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

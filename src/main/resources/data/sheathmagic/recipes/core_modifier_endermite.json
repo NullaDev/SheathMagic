@@ -1,0 +1,24 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:core_modifier_endermite",
+    "count": 1
+  },
+  "pattern": [
+    "AAAA",
+    "AAAA",
+    "AAAA",
+    " BC "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ender_pearl"
+    },
+    "B": {
+      "item": "minecraft:name_tag"
+    },
+    "C": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:core_modifier_falling",
+    "count": 1
+  },
+  "pattern": [
+    " A ",
+    "   ",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

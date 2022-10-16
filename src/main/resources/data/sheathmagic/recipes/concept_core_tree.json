@@ -1,0 +1,46 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_tree",
+    "count": 1
+  },
+  "pattern": [
+    "  A  ",
+    "B   B",
+    " C DE",
+    " FGH ",
+    "  IJ "
+  ],
+  "key": {
+    "A": {
+      "item": "sheathmagic:concept_core_tnt"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "C": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "E": {
+      "item": "sheathmagic:concept_core_bone_meal_advanced"
+    },
+    "F": {
+      "item": "sheathmagic:core_modifier_pulse_controllable"
+    },
+    "G": {
+      "item": "minecraft:moss_block"
+    },
+    "H": {
+      "item": "sheathmagic:core_modifier_pulse"
+    },
+    "I": {
+      "item": "minecraft:hopper_minecart"
+    },
+    "J": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

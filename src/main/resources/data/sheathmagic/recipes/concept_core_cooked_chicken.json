@@ -1,0 +1,31 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_cooked_chicken",
+    "count": 1
+  },
+  "pattern": [
+    "     ",
+    "AABAA",
+    "AACAA",
+    "  D  ",
+    "  E  "
+  ],
+  "key": {
+    "A": {
+      "item": "sheathmagic:concept_core_chicken"
+    },
+    "B": {
+      "item": "minecraft:lava_bucket"
+    },
+    "C": {
+      "tag": "minecraft:slabs"
+    },
+    "D": {
+      "item": "minecraft:hopper"
+    },
+    "E": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

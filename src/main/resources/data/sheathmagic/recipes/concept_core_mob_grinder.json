@@ -1,0 +1,30 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_mob_grinder",
+    "count": 1
+  },
+  "pattern": [
+    " AA ",
+    "B  B",
+    " CC ",
+    " DDE"
+  ],
+  "key": {
+    "A": {
+      "item": "sheathmagic:core_modifier_dark_box"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "C": {
+      "item": "sheathmagic:core_modifier_fall"
+    },
+    "D": {
+      "item": "minecraft:hopper"
+    },
+    "E": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

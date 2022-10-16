@@ -8,15 +8,18 @@ import net.minecraft.world.entity.SlotAccess;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.ClickAction;
 import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 
+import java.util.List;
 import java.util.Random;
 
-public class FarmConceptCore extends BaseConceptCore implements ItemContainable, ConceptCoreWand {
+public class FarmConceptCore extends BaseContainableConceptCore implements ConceptCoreWand {
+    public static final List<Item> validItems = List.of(Items.POTATO, Items.CARROT, Items.BEETROOT_SEEDS, Items.WHEAT_SEEDS);
     public FarmConceptCore(Properties props) {
-        super(props, 600);
+        super(props, 600, validItems);
     }
 
     @Override
@@ -41,53 +44,5 @@ public class FarmConceptCore extends BaseConceptCore implements ItemContainable,
         } else {
             return InteractionResultHolder.pass(player.getItemInHand(hand));
         }
-    }
-
-    @Override
-    public boolean overrideStackedOnOther(ItemStack core, Slot slot, ClickAction clickAction, Player player) {
-        if (clickAction == ClickAction.SECONDARY && slot.allowModification(player)) {
-            var slotStack = slot.getItem();
-            if (slotStack.isEmpty()) {
-                ItemContainable.removeContent(core).ifPresent(slot::safeInsert);
-                return true;
-            } else if (slotStack.getItem() == Items.WHEAT_SEEDS
-                    || slotStack.getItem() == Items.BEETROOT_SEEDS
-                    || slotStack.getItem() == Items.CARROT
-                    || slotStack.getItem() == Items.POTATO) {
-                ItemContainable.writeTagContent(core, slotStack.split(1));
-                return true;
-            }
-        }
-        return false;
-    }
-
-    @Override
-    public boolean overrideOtherStackedOnMe(ItemStack core, ItemStack slotStack, Slot slot, ClickAction clickAction, Player player, SlotAccess slotAccess) {
-        if (clickAction == ClickAction.SECONDARY && slot.allowModification(player)) {
-            if (slotStack.isEmpty()) {
-                ItemContainable.removeContent(core).ifPresent(slotAccess::set);
-                return true;
-            } else {
-                if (slotStack.getItem() == Items.WHEAT_SEEDS
-                        || slotStack.getItem() == Items.BEETROOT_SEEDS
-                        || slotStack.getItem() == Items.POTATO
-                        || slotStack.getItem() == Items.CARROT
-                ) {
-                    InteroperationWand.writeTagCore(core, slotStack.split(1));
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
-
-    @Override
-    public boolean isContentValid(ItemStack item) {
-        var content = ItemContainable.readTagContent(item);
-
-        return content.getItem() == Items.WHEAT_SEEDS
-                || content.getItem() == Items.BEETROOT_SEEDS
-                || content.getItem() == Items.CARROT
-                || content.getItem() == Items.POTATO;
     }
 }

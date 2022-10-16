@@ -173,7 +173,7 @@ public class InteroperationWand extends Item {
             if (slotStack.isEmpty()) {
                 removeCore(wand).ifPresent(slot::safeInsert);
                 return true;
-            } else if (slotStack.getItem() instanceof ConceptCoreWand) {
+            } else if (slotStack.getItem() instanceof ConceptCoreWand && !hasCore(wand)) {
                 InteroperationWand.writeTagCore(wand, slotStack.split(1));
                 return true;
             }
@@ -188,9 +188,8 @@ public class InteroperationWand extends Item {
                 removeCore(wand).ifPresent(slotAccess::set);
                 return true;
             } else {
-                if (slotStack.getItem() instanceof ConceptCoreWand) {
-                    InteroperationWand.writeTagCore(wand, slotStack);
-                    slotStack.shrink(1);
+                if (slotStack.getItem() instanceof ConceptCoreWand && !hasCore(wand)) {
+                    InteroperationWand.writeTagCore(wand, slotStack.split(1));
                     return true;
                 }
             }

@@ -1,0 +1,30 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_frame_breaker",
+    "count": 1
+  },
+  "pattern": [
+    "A   ",
+    "    ",
+    "  BC",
+    "D E "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ender_eye"
+    },
+    "B": {
+      "item": "minecraft:red_mushroom"
+    },
+    "C": {
+      "item": "sheathmagic:concept_core_bone_meal"
+    },
+    "D": {
+      "item": "sheathmagic:world_interoperation_io"
+    },
+    "E": {
+      "item": "minecraft:podzol"
+    }
+  }
+}

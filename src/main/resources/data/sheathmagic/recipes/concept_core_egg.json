@@ -1,0 +1,36 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_egg",
+    "count": 1
+  },
+  "pattern": [
+    "  A ",
+    "BCDA",
+    "BEFA",
+    "BEG "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:glass"
+    },
+    "B": {
+      "item": "sheathmagic:core_modifier_pulse"
+    },
+    "C": {
+      "item": "minecraft:dispenser"
+    },
+    "D": {
+      "item": "sheathmagic:world_interoperation_io"
+    },
+    "E": {
+      "item": "minecraft:dropper"
+    },
+    "F": {
+      "item": "minecraft:egg"
+    },
+    "G": {
+      "item": "minecraft:hopper"
+    }
+  }
+}

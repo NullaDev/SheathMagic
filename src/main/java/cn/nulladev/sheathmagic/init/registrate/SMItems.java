@@ -18,7 +18,7 @@ public class SMItems {
 
     // Basic components that can be crafted in crafting table.
     public static final ItemEntry<CoreComponent> CORE_AMPLIFIER = REGISTRATE.item("core_amplifier", CoreComponent::new).defaultModel().defaultLang().register();
-    public static final ItemEntry<CoreComponent> WORLD_IO = REGISTRATE.item("core_amplifier", CoreComponent::new).defaultModel().defaultLang().register();
+    public static final ItemEntry<CoreComponent> WORLD_INTEROPERATION_IO = REGISTRATE.item("world_interoperation_io", CoreComponent::new).defaultModel().defaultLang().register();
 
     // Higher level components that should be crafted in space crystal
     public static final ItemEntry<CoreComponent> CORE_MODIFIER_PULSE =
@@ -37,8 +37,8 @@ public class SMItems {
             REGISTRATE.item("core_modifier_wither", CoreComponent::new).defaultModel().defaultLang().register();
     public static final ItemEntry<CoreComponent> CORE_MODIFIER_PULSE_CONTROLLABLE =
             REGISTRATE.item("core_modifier_pulse_controllable", CoreComponent::new).defaultModel().defaultLang().register();
-    public static final ItemEntry<CoreComponent> CORE_MODIFIER_PISTON_WARM =
-            REGISTRATE.item("core_modifier_piston_warm", CoreComponent::new).defaultModel().defaultLang().register();
+    public static final ItemEntry<CoreComponent> CORE_MODIFIER_PISTON_WORM =
+            REGISTRATE.item("core_modifier_piston_worm", CoreComponent::new).defaultModel().defaultLang().register();
     public static final ItemEntry<CoreComponent> CORE_MODIFIER_VILLAGER =
             REGISTRATE.item("core_modifier_villager", CoreComponent::new).defaultModel().defaultLang().register();
     public static final ItemEntry<CoreComponent> CORE_MODIFIER_ENDERMITE =

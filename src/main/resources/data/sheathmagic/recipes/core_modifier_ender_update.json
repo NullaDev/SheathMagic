@@ -1,0 +1,32 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:core_modifier_ender_update",
+    "count": 1
+  },
+  "pattern": [
+    "AB ",
+    "CD ",
+    " EF"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:carpets"
+    },
+    "B": {
+      "item": "sheathmagic:concept_core_attachment_block"
+    },
+    "C": {
+      "item": "sheathmagic:core_modifier_pulse"
+    },
+    "D": {
+      "item": "minecraft:dropper"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "F": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

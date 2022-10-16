@@ -1,0 +1,39 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_tnt",
+    "count": 1
+  },
+  "pattern": [
+    "ABC ",
+    "DBBE",
+    " F G",
+    "   H"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:sticky_piston"
+    },
+    "B": {
+      "item": "minecraft:slime_block"
+    },
+    "C": {
+      "item": "minecraft:minecart"
+    },
+    "D": {
+      "item": "sheathmagic:core_modifier_pulse_controllable"
+    },
+    "E": {
+      "item": "minecraft:cobblestone_wall"
+    },
+    "F": {
+      "item": "minecraft:dead_brain_coral_fan"
+    },
+    "G": {
+      "item": "minecraft:tnt"
+    },
+    "H": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

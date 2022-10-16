@@ -9,6 +9,7 @@ import net.minecraft.world.entity.SlotAccess;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.ClickAction;
 import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -16,17 +17,14 @@ import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 
+import java.util.List;
 import java.util.Random;
 
-public class MelonConceptCore extends BaseConceptCore implements ItemContainable, ConceptCoreWand {
-    public MelonConceptCore(Properties props) {
-        super(props, 12000);
-    }
+public class MelonConceptCore extends BaseContainableConceptCore implements ItemContainable, ConceptCoreWand {
+    public static final List<Item> validItems = List.of(Items.MELON_SEEDS, Items.PUMPKIN_SEEDS);
 
-    @Override
-    public boolean isContentValid(ItemStack stack) {
-        var content = ItemContainable.readTagContent(stack);
-        return content.getItem() == Items.PUMPKIN || content.getItem() == Items.MELON;
+    public MelonConceptCore(Properties props) {
+        super(props, 12000, validItems);
     }
 
     @Override
@@ -60,37 +58,4 @@ public class MelonConceptCore extends BaseConceptCore implements ItemContainable
             return InteractionResult.PASS;
         }
     }
-
-
-    @Override
-    public boolean overrideStackedOnOther(ItemStack core, Slot slot, ClickAction clickAction, Player player) {
-        if (clickAction == ClickAction.SECONDARY && slot.allowModification(player)) {
-            var slotStack = slot.getItem();
-            if (slotStack.isEmpty()) {
-                ItemContainable.removeContent(core).ifPresent(slot::safeInsert);
-                return true;
-            } else if (slotStack.getItem() == Items.MELON_SEEDS || slotStack.getItem() == Items.PUMPKIN_SEEDS) {
-                ItemContainable.writeTagContent(core, slotStack.split(1));
-                return true;
-            }
-        }
-        return false;
-    }
-
-    @Override
-    public boolean overrideOtherStackedOnMe(ItemStack core, ItemStack slotStack, Slot slot, ClickAction clickAction, Player player, SlotAccess slotAccess) {
-        if (clickAction == ClickAction.SECONDARY && slot.allowModification(player)) {
-            if (slotStack.isEmpty()) {
-                ItemContainable.removeContent(core).ifPresent(slotAccess::set);
-                return true;
-            } else {
-                if (slotStack.getItem() == Items.MELON_SEEDS || slotStack.getItem() == Items.PUMPKIN_SEEDS) {
-                    InteroperationWand.writeTagCore(core, slotStack.split(1));
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
-
 }

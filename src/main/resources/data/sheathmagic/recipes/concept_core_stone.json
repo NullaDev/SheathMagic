@@ -1,0 +1,23 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_stone",
+    "count": 1
+  },
+  "pattern": [
+    " A ",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:lava_bucket"
+    },
+    "B": {
+      "item": "sheathmagic:concept_core_water"
+    },
+    "C": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

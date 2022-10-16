@@ -1,0 +1,26 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_cactus",
+    "count": 1
+  },
+  "pattern": [
+    " A ",
+    "B B",
+    "CDC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:cobblestone_wall"
+    },
+    "B": {
+      "item": "minecraft:cactus"
+    },
+    "C": {
+      "item": "minecraft:sand"
+    },
+    "D": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

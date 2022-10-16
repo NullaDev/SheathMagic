@@ -1,0 +1,27 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_bone_meal",
+    "count": 1
+  },
+  "pattern": [
+    "AAAA",
+    "AAAA",
+    "AAAA",
+    " BCD"
+  ],
+  "key": {
+    "A": {
+      "item": "sheathmagic:concept_core_cactus"
+    },
+    "B": {
+      "item": "minecraft:hopper"
+    },
+    "C": {
+      "item": "minecraft:composter"
+    },
+    "D": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

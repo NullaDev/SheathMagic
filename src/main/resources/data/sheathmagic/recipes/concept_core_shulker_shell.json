@@ -1,0 +1,46 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_shulker_shell",
+    "count": 1
+  },
+  "pattern": [
+    "AAA  ",
+    "ABB  ",
+    "CDE  ",
+    "F GAH",
+    "A IBJ"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:scaffolding"
+    },
+    "B": {
+      "tag": "minecraft:slabs"
+    },
+    "C": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "item": "sheathmagic:core_modifier_pulse"
+    },
+    "E": {
+      "item": "sheathmagic:core_modifier_endermite"
+    },
+    "F": {
+      "item": "sheathmagic:core_modifier_shulker"
+    },
+    "G": {
+      "item": "minecraft:minecart"
+    },
+    "H": {
+      "item": "minecraft:lava_bucket"
+    },
+    "I": {
+      "item": "sheathmagic:core_modifier_snow_golem"
+    },
+    "J": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

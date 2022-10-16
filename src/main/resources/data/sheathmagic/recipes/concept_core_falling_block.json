@@ -1,0 +1,34 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:concept_core_falling_block",
+    "count": 1
+  },
+  "pattern": [
+    "  A  ",
+    "  B C",
+    "BD EF",
+    "A  DB",
+    "    A"
+  ],
+  "key": {
+    "A": {
+      "item": "sheathmagic:core_modifier_pulse"
+    },
+    "B": {
+      "item": "minecraft:sticky_piston"
+    },
+    "C": {
+      "item": "sheathmagic:concept_core_frame_destroy"
+    },
+    "D": {
+      "item": "minecraft:slime_block"
+    },
+    "E": {
+      "item": "sheathmagic:world_interoperation_io"
+    },
+    "F": {
+      "item": "minecraft:ender_eye"
+    }
+  }
+}

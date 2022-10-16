@@ -1,0 +1,30 @@
+{
+  "type": "sheathmagic:crystal_default",
+  "result": {
+    "item": "sheathmagic:core_modifier_piston_worm",
+    "count": 1
+  },
+  "pattern": [
+    "    ",
+    "ABCC",
+    "CCDA",
+    "   E"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:observer"
+    },
+    "B": {
+      "item": "minecraft:sticky_piston"
+    },
+    "C": {
+      "item": "minecraft:slime_block"
+    },
+    "D": {
+      "item": "minecraft:piston"
+    },
+    "E": {
+      "item": "sheathmagic:world_interoperation_io"
+    }
+  }
+}

@@ -1,7 +1,10 @@
 package cn.nulladev.sheathmagic.content.item;
 
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 
 import java.util.Optional;
 
@@ -26,8 +29,6 @@ public interface ItemContainable {
         return !(readTagContent(item).isEmpty());
     }
 
-    boolean isContentValid(ItemStack item);
-
     static Optional<ItemStack> removeContent(ItemStack item) {
         if (!hasContent(item)) {
             return Optional.empty();
@@ -35,6 +36,14 @@ public interface ItemContainable {
             var content = readTagContent(item);
             writeTagContent(item, ItemStack.EMPTY);
             return Optional.of(content);
+        }
+    }
+
+    static Block getBlock(ItemStack stack) {
+        if (readTagContent(stack).getItem() instanceof BlockItem) {
+            return ((BlockItem) (readTagContent(stack).getItem())).getBlock();
+        } else {
+            return Blocks.AIR;
         }
     }
 }
