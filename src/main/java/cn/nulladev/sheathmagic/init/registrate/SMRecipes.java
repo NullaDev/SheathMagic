@@ -18,11 +18,12 @@ public class SMRecipes {
     public static final DeferredRegister<RecipeType<?>> RECIPE_TYPE = DeferredRegister.create(Registry.RECIPE_TYPE_REGISTRY, SheathMagic.MODID);
     public static final DeferredRegister<RecipeSerializer<?>> RECIPE_SERIALIZER = DeferredRegister.create(ForgeRegistries.RECIPE_SERIALIZERS, SheathMagic.MODID);
 
-    public static RegistryObject<RecipeType<AbstractCrystalRecipe<?>>> RECIPE_TYPE_CRYSTAL = REGISTRATE.recipe(RECIPE_TYPE, "crystal_crafting");
+    public static RegistryObject<RecipeType<AbstractCrystalRecipe<?>>> RECIPE_TYPE_CRYSTAL = REGISTRATE.recipe(RECIPE_TYPE, "sheathmagic:crystal_crafting");
     public static final RegistryObject<BaseRecipe.RecType<DefaultCrystalRecipe, AbstractCrystalRecipe<?>, CrystalMenu.CrystalContainer>> RECIPE_SERIALIZER_CRYSTAL_DEFAULT =
             RECIPE_SERIALIZER.register("crystal_default", () -> new BaseRecipe.RecType<>(DefaultCrystalRecipe.class, RECIPE_TYPE_CRYSTAL));
 
     public static void register(IEventBus bus) {
+        RECIPE_SERIALIZER.register(bus);
         RECIPE_TYPE.register(bus);
     }
 

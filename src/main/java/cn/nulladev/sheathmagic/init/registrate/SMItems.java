@@ -232,10 +232,10 @@ public class SMItems {
             REGISTRATE.item("space_crystal_basic", (p) -> new SpaceCrystal(p, 3)).register();
 
     public static final ItemEntry<SpaceCrystal> SPACE_CRYSTAL_ADVANCED =
-            REGISTRATE.item("space_crystal_advanced", (p) -> new SpaceCrystal(p, 3)).register();
+            REGISTRATE.item("space_crystal_advanced", (p) -> new SpaceCrystal(p, 4)).register();
 
     public static final ItemEntry<SpaceCrystal> SPACE_CRYSTAL_ULTIMATE =
-            REGISTRATE.item("space_crystal_ultimate", (p) -> new SpaceCrystal(p, 3)).register();
+            REGISTRATE.item("space_crystal_ultimate", (p) -> new SpaceCrystal(p, 5)).register();
 
     public static void register() {}
 }

@@ -22,8 +22,8 @@ public class SpaceCrystal extends Item {
     }
 
     public static int getSize(ItemStack stack) {
-        if (stack.getItem() instanceof SpaceCrystal) {
-            return ((SpaceCrystal) stack.getItem()).size;
+        if (stack.getItem() instanceof SpaceCrystal crystal) {
+            return crystal.size;
         }
         else {
             return 0;
