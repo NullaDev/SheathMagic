@@ -237,7 +237,7 @@ public class SMItems {
 
     /* Misc items */
     public static final ItemEntry<InfiniteFuel> INFINITE_FUEL =
-            REGISTRATE.item("infinite_fuel", (p) -> new InfiniteFuel(p.stacksTo(1).craftRemainder(SMItems.INFINITE_FUEL.get()))).register();
+            REGISTRATE.item("infinite_fuel", InfiniteFuel::new).register();
 
     public static final ItemEntry<ConceptCoreBag> CORE_BAG =
             REGISTRATE.item("core_bag", ConceptCoreBag::new).register();
