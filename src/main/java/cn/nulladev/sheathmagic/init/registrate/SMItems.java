@@ -1,8 +1,6 @@
 package cn.nulladev.sheathmagic.init.registrate;
 
-import cn.nulladev.sheathmagic.content.item.CoreComponent;
-import cn.nulladev.sheathmagic.content.item.InteroperationWand;
-import cn.nulladev.sheathmagic.content.item.SpaceCrystal;
+import cn.nulladev.sheathmagic.content.item.*;
 import cn.nulladev.sheathmagic.content.item.conceptcore.*;
 import dev.xkmc.l2library.repack.registrate.util.entry.ItemEntry;
 import net.minecraft.world.entity.projectile.Snowball;
@@ -236,6 +234,13 @@ public class SMItems {
 
     public static final ItemEntry<SpaceCrystal> SPACE_CRYSTAL_ULTIMATE =
             REGISTRATE.item("space_crystal_ultimate", (p) -> new SpaceCrystal(p, 5)).register();
+
+    /* Misc items */
+    public static final ItemEntry<InfiniteFuel> INFINITE_FUEL =
+            REGISTRATE.item("infinite_fuel", (p) -> new InfiniteFuel(p.stacksTo(1).craftRemainder(SMItems.INFINITE_FUEL.get()))).register();
+
+    public static final ItemEntry<ConceptCoreBag> CORE_BAG =
+            REGISTRATE.item("core_bag", ConceptCoreBag::new).register();
 
     public static void register() {}
 }
