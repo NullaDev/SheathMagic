@@ -22,8 +22,8 @@ public class SMBlocks {
 					GENERAL_PROP, WorldInteroperator.BLOCK_ENTITY
 			)).blockstate((ctx, pvd) -> pvd.simpleBlock(ctx.getEntry(), pvd.models().cubeTop(
 					ctx.getName(),
-					new ResourceLocation(SheathMagic.MODID, "block/" + ctx.getName() + "_top"),
-					new ResourceLocation(SheathMagic.MODID, "block/" + ctx.getName() + "_side")
+					new ResourceLocation(SheathMagic.MODID, "block/" + ctx.getName() + "_side"),
+					new ResourceLocation(SheathMagic.MODID, "block/" + ctx.getName() + "_top")
 			))).item().build().register();
 
 
