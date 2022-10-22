@@ -14,7 +14,7 @@
       "tag": "minecraft:carpets"
     },
     "B": {
-      "item": "sheathmagic:concept_core_attachment_block"
+      "item": "sheathmagic:concept_core_attachment"
     },
     "C": {
       "item": "sheathmagic:core_modifier_pulse"

@@ -25,7 +25,7 @@
       "item": "minecraft:turtle_egg"
     },
     "E": {
-      "item": "sheathmagic:core_modifier_fall"
+      "item": "sheathmagic:core_modifier_falling"
     },
     "F": {
       "item": "minecraft:hopper"

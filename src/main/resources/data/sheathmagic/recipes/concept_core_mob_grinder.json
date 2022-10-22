@@ -18,7 +18,7 @@
       "item": "minecraft:water_bucket"
     },
     "C": {
-      "item": "sheathmagic:core_modifier_fall"
+      "item": "sheathmagic:core_modifier_falling"
     },
     "D": {
       "item": "minecraft:hopper"

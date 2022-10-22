@@ -28,7 +28,7 @@
       "tag": "minecraft:trapdoors"
     },
     "F": {
-      "item": "sheathmagic:core_modifier_fall"
+      "item": "sheathmagic:core_modifier_falling"
     },
     "G": {
       "item": "sheathmagic:world_interoperation_io"

@@ -1,0 +1,10 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_bone_meal",
+    "count": 1
+  },
+  "output": {
+
+  }
+}

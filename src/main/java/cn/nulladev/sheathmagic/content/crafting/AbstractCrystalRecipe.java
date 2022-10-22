@@ -11,8 +11,8 @@ import net.minecraft.world.level.Level;
 import java.util.HashMap;
 
 @SerialClass
-public class AbstractCrystalRecipe<Rec extends AbstractCrystalRecipe<Rec>> extends BaseRecipe<Rec,
-        AbstractCrystalRecipe<?>, CrystalMenu.CrystalContainer> {
+public class AbstractCrystalRecipe<Rec extends AbstractCrystalRecipe<Rec>>
+        extends BaseRecipe<Rec, AbstractCrystalRecipe<?>, CrystalMenu.CrystalContainer> {
 
     @SerialClass.SerialField
     public String[] pattern;

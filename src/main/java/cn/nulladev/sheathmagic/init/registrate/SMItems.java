@@ -159,7 +159,6 @@ public class SMItems {
                     (p) -> new BoneMealConceptCore(p, 12000)
             ).defaultModel().defaultLang().register();
 
-
     public static final ItemEntry<BoneMealConceptCore> CONCEPT_CORE_BONE_MEAL_ADVANCED =
             REGISTRATE.item(
                     "concept_core_bone_meal_advanced",
@@ -170,6 +169,18 @@ public class SMItems {
             REGISTRATE.item(
                     "concept_core_falling_block",
                     FallingBlockConceptCore::new
+            ).defaultModel().defaultLang().register();
+
+    public static final ItemEntry<DrainConceptCore> CONCEPT_CORE_DRAIN =
+            REGISTRATE.item(
+                    "concept_core_drain",
+                    DrainConceptCore::new
+            ).defaultModel().defaultLang().register();
+
+    public static final ItemEntry<FarmConceptCore> CONCEPT_CORE_FARM =
+            REGISTRATE.item(
+                    "concept_core_farm",
+                    FarmConceptCore::new
             ).defaultModel().defaultLang().register();
 
     public static final ItemEntry<FrameBreakerConceptCore> CONCEPT_CORE_FRAME_BREAKER =
@@ -185,6 +196,17 @@ public class SMItems {
                     LevelEaterConceptCore::new
             ).defaultModel().defaultLang().register();
 
+    public static final ItemEntry<MelonConceptCore> CONCEPT_CORE_MELON =
+            REGISTRATE.item(
+                    "concept_core_melon",
+                    MelonConceptCore::new
+            ).defaultModel().defaultLang().register();
+
+    public static final ItemEntry<NetherPortalConceptCore> CONCEPT_CORE_NETHER_PORTAL =
+            REGISTRATE.item(
+                    "concept_core_nether_portal",
+                    NetherPortalConceptCore::new
+            ).defaultModel().defaultLang().register();
 
     public static final ItemEntry<TNTConceptCore> CONCEPT_CORE_TNT =
             REGISTRATE.item(
@@ -222,6 +244,13 @@ public class SMItems {
             REGISTRATE.item(
                     "concept_core_mob_grinder",
                     (p) -> new BaseConceptCore(p, 100)
+            ).defaultModel().defaultLang().register();
+
+
+    public static final ItemEntry<BaseConceptCore> CONCEPT_CORE_SHULKER_SHELL =
+            REGISTRATE.item(
+                    "concept_core_shulker_shell",
+                    (p) -> new BaseConceptCore(p, 200)
             ).defaultModel().defaultLang().register();
 
     /* Space Crystal */
