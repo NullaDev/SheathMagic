@@ -14,7 +14,7 @@ import org.slf4j.Logger;
 public class SheathMagic {
     public static final String MODID = "sheathmagic";
     public static final L2Registrate REGISTRATE = new L2Registrate(MODID);
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     private static void registerRegistrates(IEventBus bus) {
         SMCreativeModeTab.register();

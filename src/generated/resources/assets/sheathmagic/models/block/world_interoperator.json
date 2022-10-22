@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_top",
+  "textures": {
+    "side": "sheathmagic:block/world_interoperator_top",
+    "top": "sheathmagic:block/world_interoperator_side"
+  }
+}
