@@ -1,0 +1,57 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_melon",
+    "nbt": "{sheath_content:{Count:1b,id:\"minecraft:melon_seeds\"}}"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:melon_slice"
+      },
+      "_val": 100.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:melon_slice"
+      },
+      "_val": 20.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:melon_slice"
+      },
+      "_val": 20.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:melon_slice"
+      },
+      "_val": 20.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:melon_slice"
+      },
+      "_val": 20.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:melon_slice"
+      },
+      "_val": 20.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:melon_slice"
+      },
+      "_val": 100.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:melon_slice"
+      },
+      "_val": 100.0
+    }
+  ]
+}

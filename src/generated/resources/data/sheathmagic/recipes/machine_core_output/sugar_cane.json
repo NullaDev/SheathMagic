@@ -1,0 +1,14 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_sugar_cane"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:sugar_cane"
+      },
+      "_val": 100.0
+    }
+  ]
+}

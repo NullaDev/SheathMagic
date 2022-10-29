@@ -1,0 +1,50 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_iron"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:iron_ingot"
+      },
+      "_val": 50.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:iron_ingot"
+      },
+      "_val": 50.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:iron_ingot"
+      },
+      "_val": 100.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:iron_ingot"
+      },
+      "_val": 100.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:poppy"
+      },
+      "_val": 50.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:iron_ingot"
+      },
+      "_val": 100.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:poppy"
+      },
+      "_val": 50.0
+    }
+  ]
+}

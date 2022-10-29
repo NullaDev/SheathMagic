@@ -1,0 +1,14 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_glow_berries"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:glow_berries"
+      },
+      "_val": 100.0
+    }
+  ]
+}

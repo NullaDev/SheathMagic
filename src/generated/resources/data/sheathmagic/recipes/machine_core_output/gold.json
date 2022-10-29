@@ -1,0 +1,33 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_gold"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:gold_ingot"
+      },
+      "_val": 2.5
+    },
+    {
+      "_key": {
+        "item": "minecraft:gold_nugget"
+      },
+      "_val": 50.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:golden_sword",
+        "nbt": "{Damage:0}"
+      },
+      "_val": 8.5
+    },
+    {
+      "_key": {
+        "item": "minecraft:rotten_flesh"
+      },
+      "_val": 50.0
+    }
+  ]
+}

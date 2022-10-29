@@ -4,7 +4,6 @@ import cn.nulladev.sheathmagic.content.crafting.AbstractCrystalRecipe;
 import cn.nulladev.sheathmagic.content.item.SpaceCrystal;
 import cn.nulladev.sheathmagic.init.SheathMagic;
 import cn.nulladev.sheathmagic.init.registrate.SMItems;
-import cn.nulladev.sheathmagic.init.registrate.SMMenus;
 import cn.nulladev.sheathmagic.init.registrate.SMRecipes;
 import dev.xkmc.l2library.base.menu.BaseContainerMenu;
 import dev.xkmc.l2library.base.menu.SpriteManager;

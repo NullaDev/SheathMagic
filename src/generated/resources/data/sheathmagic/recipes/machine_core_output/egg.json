@@ -1,0 +1,14 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_egg"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:egg"
+      },
+      "_val": 100.0
+    }
+  ]
+}

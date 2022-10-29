@@ -1,0 +1,15 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_farm",
+    "nbt": "{sheath_content:{Count:1b,id:\"minecraft:wheat_seeds\"}}"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:bread"
+      },
+      "_val": 0.3333333333333333
+    }
+  ]
+}

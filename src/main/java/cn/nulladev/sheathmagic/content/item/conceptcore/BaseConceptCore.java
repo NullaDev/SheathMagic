@@ -57,7 +57,7 @@ public class BaseConceptCore extends Item implements ItemCooldown {
     }
 
     public static boolean canUse(ItemStack core) {
-        return ItemCooldown.readTagCooldown(core) <= 0;
+        return core.getItem() instanceof BaseConceptCore && ItemCooldown.readTagCooldown(core) <= 0;
     }
 
     @Override

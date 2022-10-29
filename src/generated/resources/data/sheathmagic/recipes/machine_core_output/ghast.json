@@ -1,0 +1,26 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_ghast"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:gunpowder"
+      },
+      "_val": 50.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:gunpowder"
+      },
+      "_val": 50.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:ghast_tear"
+      },
+      "_val": 50.0
+    }
+  ]
+}

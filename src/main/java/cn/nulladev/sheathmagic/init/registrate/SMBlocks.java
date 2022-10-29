@@ -29,7 +29,7 @@ public class SMBlocks {
 
 	/* Block Entities */
 	public static final BlockEntityEntry<WorldInteroperatorEntity> WORLD_INTEROPERATOR_ENTITY =
-			REGISTRATE.blockEntity("world_interoperator", WorldInteroperatorEntity::new).register();
+			REGISTRATE.blockEntity("world_interoperator", WorldInteroperatorEntity::new).validBlock(WORLD_INTEROPERATOR).register();
 
 	public static void register() {
 	}

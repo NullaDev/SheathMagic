@@ -21,7 +21,7 @@ public class AbstractCoreOutputRecipeBuilder<B extends AbstractCoreOutputRecipeB
         return getThis();
     }
 
-    public B addOutput(ItemStack output, int possibility) {
+    public B addOutput(ItemStack output, double possibility) {
         recipe.outputs.put(output, possibility);
         return getThis();
     }

@@ -1,0 +1,15 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_falling_block",
+    "nbt": "{sheath_content:{Count:1b,id:\"minecraft:sand\"}}"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:sand"
+      },
+      "_val": 100.0
+    }
+  ]
+}

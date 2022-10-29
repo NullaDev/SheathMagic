@@ -1,0 +1,14 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_stone"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:stone"
+      },
+      "_val": 100.0
+    }
+  ]
+}

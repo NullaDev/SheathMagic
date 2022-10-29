@@ -1,0 +1,20 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_obsidian_advanced"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:obsidian"
+      },
+      "_val": 100.0
+    },
+    {
+      "_key": {
+        "item": "minecraft:cobblestone"
+      },
+      "_val": 50.0
+    }
+  ]
+}

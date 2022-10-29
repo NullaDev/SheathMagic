@@ -1,0 +1,15 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_attachment",
+    "nbt": "{sheath_content:{Count:1b,id:\"minecraft:red_carpet\"}}"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:red_carpet"
+      },
+      "_val": 100.0
+    }
+  ]
+}

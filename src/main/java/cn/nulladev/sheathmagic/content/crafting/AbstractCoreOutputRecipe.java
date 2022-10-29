@@ -16,7 +16,7 @@ public class AbstractCoreOutputRecipe<Rec extends AbstractCoreOutputRecipe<Rec>>
     @SerialClass.SerialField
     public ItemStack input;
     @SerialClass.SerialField
-    public HashMap<ItemStack, Integer> outputs;
+    public HashMap<ItemStack, Double> outputs;
 
     public AbstractCoreOutputRecipe(ResourceLocation id, RecType<Rec, AbstractCoreOutputRecipe<?>, SimpleContainer> fac) {
         super(id, fac);

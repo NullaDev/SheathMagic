@@ -1,0 +1,14 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_snowball"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:snowball"
+      },
+      "_val": 100.0
+    }
+  ]
+}

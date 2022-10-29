@@ -1,0 +1,14 @@
+{
+  "type": "sheathmagic:core_machine_output",
+  "input": {
+    "item": "sheathmagic:concept_core_shulker_shell"
+  },
+  "outputs": [
+    {
+      "_key": {
+        "item": "minecraft:shulker_shell"
+      },
+      "_val": 100.0
+    }
+  ]
+}
