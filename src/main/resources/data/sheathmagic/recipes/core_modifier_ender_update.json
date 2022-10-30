@@ -11,7 +11,7 @@
   ],
   "key": {
     "A": {
-      "tag": "minecraft:carpets"
+      "item": "minecraft:carpets"
     },
     "B": {
       "item": "sheathmagic:concept_core_attachment"

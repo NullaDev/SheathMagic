@@ -33,7 +33,7 @@ public class MachineRecipeCategory implements IRecipeCategory<MachineCoreOutputR
     }
 
     public MachineRecipeCategory init(IGuiHelper guiHelper) {
-        background = guiHelper.drawableBuilder(bg, 7, 16, 162, 18)
+        background = guiHelper.drawableBuilder(bg, 7, 16, 162, 18 * 5)
                 .addPadding(0, 0, 0, 0)
                 .build();
         icon = guiHelper.createDrawableIngredient(VanillaTypes.ITEM_STACK, stack);
@@ -62,7 +62,7 @@ public class MachineRecipeCategory implements IRecipeCategory<MachineCoreOutputR
 
     @Override
     public void setRecipe(IRecipeLayoutBuilder builder, MachineCoreOutputRecipe recipe, IFocusGroup focuses) {
-        builder.addSlot(RecipeIngredientRole.INPUT, 80, 17).addIngredients(Ingredient.of(recipe.input));
+        builder.addSlot(RecipeIngredientRole.INPUT, 73, 1).addIngredients(Ingredient.of(recipe.input));
         var outputIngredients = recipe.outputs.keySet().stream().map(Ingredient::of).toList();
         var outputs = new ArrayList<>(outputIngredients);
         for (int i = 0; i < 27 - outputIngredients.size(); i++) {
@@ -71,7 +71,7 @@ public class MachineRecipeCategory implements IRecipeCategory<MachineCoreOutputR
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 9; j++) {
-                builder.addSlot(RecipeIngredientRole.OUTPUT, 8 + j * 18, 53 + i * 18).addIngredients(outputs.get(i * 9 + j));
+                builder.addSlot(RecipeIngredientRole.OUTPUT, j * 18 + 1, 36 + 1 + i * 18).addIngredients(outputs.get(i * 9 + j));
             }
         }
     }
