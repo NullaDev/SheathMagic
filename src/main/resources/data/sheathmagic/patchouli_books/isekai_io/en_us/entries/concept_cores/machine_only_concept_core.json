@@ -5,7 +5,32 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "These Concept Cores can only be used in World Interoperator machine to gain products. Recommended to see jei for recipes."
+      "text": "These Concept Cores can only be used in $(l:io_tools/world_interoperator)World Interoperator$() machine to gain products. Recommended to see jei for recipes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_ghast",
+      "text": "Output what vanilla ghast drops."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_gold",
+      "text": "Output what vanilla piglin drops."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_iron",
+      "text": "Output what vanilla iron golem drops."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_mob_grinder",
+      "text": "Output what vanilla mobs drop."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_shulker_shell",
+      "text": "Output shulker shells."
     }
   ]
 }

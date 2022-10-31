@@ -5,7 +5,42 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "These Concept Cores assembled with the Interoperation Wand have special effects showing below."
+      "text": "These Concept Cores assembled with the $(l:io_tools/interoperation_wand)Interoperation Wand$() have special effects showing below."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_bone_meal",
+      "text": "Fertilizes as bone meal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_bone_meal_advanced",
+      "text": "Fertilizes as bone meal and cools down faster than Bone Meal Concept Core."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_drain",
+      "text": "Storm Drain! Works as a sponge block."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_frame_breaker",
+      "text": "Breaks the ender portal frame."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_level_eater",
+      "text": "Eat the chunk you stand."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_tnt",
+      "text": "Spawns a TNT on your face."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_villager_spawn",
+      "text": "Spawns a villager on your face."
     }
   ]
 }

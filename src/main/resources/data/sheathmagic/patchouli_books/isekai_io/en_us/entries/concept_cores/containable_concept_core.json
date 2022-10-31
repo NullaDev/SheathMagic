@@ -5,7 +5,27 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "These Concept Cores are containers. They need contents to properly work. Fill the content by the way of Interoperation Wand. "
+      "text": "These Concept Cores are containers. They need contents to properly work. Fill the content by the way of $(l:io_tools/interoperation_wand)Interoperation Wand$(). "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_attachment",
+      "text": "This container accepts any vanilla carpets and rails. Within an $(l:io_tools/interoperation_wand)Interoperation Wand$(), it can place the block in the world."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_falling",
+      "text": "This container accepts sand and gravel. Within an $(l:io_tools/interoperation_wand)Interoperation Wand$(), it can place the block in the world."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_farm",
+      "text": "This container accepts beetroot seed, carrot, potato and wheat seed. Within an $(l:io_tools/interoperation_wand)Interoperation Wand$(), it can recover your saturation."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_melon",
+      "text": "This container accepts melon seed and pumpkin seed. Within an $(l:io_tools/interoperation_wand)Interoperation Wand$(), it can recover your saturation or place a pumpkin."
     }
   ]
 }

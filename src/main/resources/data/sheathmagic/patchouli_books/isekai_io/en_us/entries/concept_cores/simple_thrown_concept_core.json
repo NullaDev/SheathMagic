@@ -5,7 +5,19 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "These Concept Cores assembled with the Interoperation Wand can throw out a projectile. "
+      "text": "These Concept Cores assembled with the $(l:io_tools/interoperation_wand)Interoperation Wand$() can throw out a projectile. "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_egg"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_ender_pearl"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_snowball"
     }
   ]
 }

@@ -4,7 +4,8 @@
   "category": "sheathmagic:miscellaneous",
   "pages": [
     {
-      "type": "patchouli:text",
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:infinite_fuel",
       "text": "This fuel should not be consumed in furnace smelting. "
     }
   ]

@@ -5,7 +5,48 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "These Concept Cores assembled with the Interoperation Wand can directly place a block in the world. "
+      "text": "These Concept Cores assembled with the $(l:io_tools/interoperation_wand)Interoperation Wand$() can directly place a block in the world. "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_cobblestone"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_cobblestone_advanced"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_stone"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_obsidian"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_obsidian_advanced"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_lava"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_water"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_sugar_cane"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_cactus"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_tree",
+      "text": "This concept core only generate oak tree."
     }
   ]
 }

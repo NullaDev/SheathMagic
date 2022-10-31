@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The concept core is crafted with a space crystal. To use the concept core, you need an interoperation wand or a world interoperator machine."
+      "text": "The concept core is crafted with a space crystal. To use the concept core, you need an $(l:io_tools/interoperation_wand)Interoperation Wand$() or a $(l:io_tools/world_interoperator)World Interoperator$() machine."
     },
     {
       "type": "patchouli:text",

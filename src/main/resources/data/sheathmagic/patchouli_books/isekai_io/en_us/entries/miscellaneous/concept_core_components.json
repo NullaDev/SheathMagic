@@ -6,6 +6,71 @@
     {
       "type": "patchouli:text",
       "text": "Here are components of Concept Cores."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_amplifier",
+      "text": "Scales up the structure in a recipe."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:world_interoperation_io",
+      "text": "Provides an interface to modify the world."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_pulse",
+      "text": "Provides concept of redstone pulse."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_ender_update",
+      "text": "Provides concept of ender update."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_dark_box",
+      "text": "Provides concept of dark box."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_falling",
+      "text": "Provides concept of falling."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_shulker",
+      "text": "Provides concept of shulker."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_snow_golem",
+      "text": "Provides concept of snow golem."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_wither",
+      "text": "Provides concept of wither."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_pulse_controllable",
+      "text": "Provides concept of controllable redstone pulse."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_piston_worm",
+      "text": "Provides concept of piston worm."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_villager",
+      "text": "Provides concept of villager."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_endermite",
+      "text": "Provides concept of endermite."
     }
   ]
 }
