@@ -1,0 +1,20 @@
+{
+  "name": "Interoperation Wand",
+  "icon": "sheathmagic:interoperation_wand",
+  "category": "sheathmagic:io_tools",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:interoperation_wand",
+      "text": "A magic wand to interoperate with the world. You need a concept core to assemble with to make it work. The effect depends on the concept core. "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To assemble it with concept core, right click the concept core to pick up, and move it on top of the wand, then right click to embed it in. Or pick up the wand and move it on top of the concept core, then right click to eat it. "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To take the concept core off, right click the wand with a concept core inside, you can get the concept core. Or you can pick up the wand and move it on top of an empty stack, then right click to drop the concept core. It works in the way of bundle item."
+    }
+  ]
+}

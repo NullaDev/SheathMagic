@@ -1,0 +1,11 @@
+{
+  "name": "Only used in machine Concept Cores",
+  "icon": "sheathmagic:concept_core_gold",
+  "category": "sheathmagic:concept_cores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "These Concept Cores can only be used in World Interoperator machine to gain products. Recommended to see jei for recipes."
+    }
+  ]
+}

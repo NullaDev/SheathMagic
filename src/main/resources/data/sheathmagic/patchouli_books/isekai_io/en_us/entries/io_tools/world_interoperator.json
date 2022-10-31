@@ -1,0 +1,16 @@
+{
+  "name": "World Interoperator",
+  "icon": "sheathmagic:world_interoperator",
+  "category": "sheathmagic:io_tools",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:world_interoperator",
+      "text": "A machine uses the power of concept core to produce items. The outputs depends on the concept core put in."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The machine has a 3x9 slots buffer and you can take the items through each sides except the top side. The top side is for concept core I/O."
+    }
+  ]
+}

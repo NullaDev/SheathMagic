@@ -1,0 +1,11 @@
+{
+  "name": "Can throw items Concept Cores",
+  "icon": "sheathmagic:concept_core_egg",
+  "category": "sheathmagic:concept_cores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "These Concept Cores assembled with the Interoperation Wand can throw out a projectile. "
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Concept Core Components",
+  "icon": "sheathmagic:world_interoperation_io",
+  "category": "sheathmagic:miscellaneous",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Here are components of Concept Cores."
+    }
+  ]
+}

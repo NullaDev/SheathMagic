@@ -1,0 +1,11 @@
+{
+  "name": "Also containers Concept Cores",
+  "icon": "sheathmagic:concept_core_farm",
+  "category": "sheathmagic:concept_cores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "These Concept Cores are containers. They need contents to properly work. Fill the content by the way of Interoperation Wand. "
+    }
+  ]
+}

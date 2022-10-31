@@ -1,0 +1,11 @@
+{
+  "name": "Can eat Concept Cores",
+  "icon": "sheathmagic:concept_core_cooked_chicken",
+  "category": "sheathmagic:concept_cores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "These Concept Cores assembled with the Interoperation Wand can add saturation. "
+    }
+  ]
+}

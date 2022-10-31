@@ -1,0 +1,11 @@
+{
+  "name": "Special Concept Cores",
+  "icon": "sheathmagic:concept_core_level_eater",
+  "category": "sheathmagic:concept_cores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "These Concept Cores assembled with the Interoperation Wand have special effects showing below."
+    }
+  ]
+}

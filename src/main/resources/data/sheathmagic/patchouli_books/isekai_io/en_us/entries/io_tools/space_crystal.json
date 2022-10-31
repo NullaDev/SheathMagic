@@ -1,0 +1,26 @@
+{
+  "name": "Space Crystal",
+  "icon": "sheathmagic:space_crystal_basic",
+  "category": "sheathmagic:io_tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Space crystal is the first step to this mod. Most mod items should be crafted in space crystal. The space crystal has three types, each has different crafting slots. Most importantly, the space crystal will be consumed by recipes. Use JEI to check the recipes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:space_crystal_basic",
+      "text": "Basic space crystal with 3x3 crafting slots."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:space_crystal_advanced",
+      "text": "Advanced space crystal with 4x4 crafting slots."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:space_crystal_ultimate",
+      "text": "Ultimate space crystal with 5x5 crafting slots."
+    }
+  ]
+}

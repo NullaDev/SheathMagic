@@ -1,0 +1,11 @@
+{
+  "name": "Infinite Fuel",
+  "icon": "sheathmagic:infinite_fuel",
+  "category": "sheathmagic:miscellaneous",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This fuel should not be consumed in furnace smelting. "
+    }
+  ]
+}

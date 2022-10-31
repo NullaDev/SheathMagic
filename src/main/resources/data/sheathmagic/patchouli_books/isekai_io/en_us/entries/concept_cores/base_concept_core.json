@@ -1,0 +1,19 @@
+{
+  "name": "Base Knowledge of Concept Cores",
+  "icon": "sheathmagic:concept_core_cobblestone",
+  "category": "sheathmagic:concept_cores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The concept core is crafted with a space crystal. To use the concept core, you need an interoperation wand or a world interoperator machine."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Per using the concept core, you need to wait until it has cooled down. The cooling down time limit differs from each concept core. "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The effect of each concept core can be learned from other entries."
+    }
+  ]
+}
