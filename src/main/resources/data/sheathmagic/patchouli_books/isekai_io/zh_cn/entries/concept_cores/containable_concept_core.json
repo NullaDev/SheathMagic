@@ -1,0 +1,31 @@
+{
+  "name": "需要填充的概念核心",
+  "icon": "sheathmagic:concept_core_farm",
+  "category": "sheathmagic:concept_cores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这些概念核心还是半成品，它们还需要额外的填充物品以决定其工作方式。填充物品不会被消耗。填充方式参见 $(l:io_tools/interoperation_wand)世界交互法杖$(). "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_attachment",
+      "text": "该概念核心接受任何 $(2)vanilla carpets and rails$() 作为填充，其工作原理为高速抽插的粘液块导致地毯或铁轨复制的原版bug。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_falling_block",
+      "text": "该概念核心接受任何 $(2)sand and gravel$()作为填充，其工作原理为末地门导致下落方块复制的原版bug。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_farm",
+      "text": "该概念核心接受任何 $(2)beetroot seed, carrot, potato and wheat seed$()作为填充，其工作原理为基于村民的原版农场。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_melon",
+      "text": "该概念核心接受任何 $(2)melon seed and pumpkin seed$()作为填充，其工作原理为基于活塞破坏的原版瓜农场。"
+    }
+  ]
+}

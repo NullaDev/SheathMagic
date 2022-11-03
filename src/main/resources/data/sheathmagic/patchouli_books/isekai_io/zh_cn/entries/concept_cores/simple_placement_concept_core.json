@@ -1,61 +1,61 @@
 {
-  "name": "Concept cores of placing blocks",
+  "name": "摆放方块的概念核心",
   "icon": "sheathmagic:concept_core_stone",
   "category": "sheathmagic:concept_cores",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "These Concept Cores assembled with the $(l:io_tools/interoperation_wand)Interoperation Wand$() can directly place a block in the world. "
+      "text": "这些概念核心与 $(l:io_tools/interoperation_wand)世界交互法杖$() 组装后使用可以在世界上摆放方块。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_cobblestone",
-	  "text": "This concept core imitates a vanilla cobblestone generator."
+	  "text": "该概念核心模仿了原版的刷圆石机。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_cobblestone_advanced",
-	  "text": "This concept core imitates a vanilla cobblestone generator. Because of the use of TNT, this core has outputs."
+	  "text": "该概念核心模仿了原版的刷圆石机，并且使用TNT破坏，因此具有输出。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_stone",
-	  "text": "This concept core imitates a vanilla stone generator."
+	  "text": "该概念核心模仿了原版的刷石机。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_obsidian",
-	  "text": "This concept core imitates a vanilla obsidian generator."
+	  "text": "该概念核心模仿了原版的刷黑曜石机。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_obsidian_advanced",
-	  "text": "This concept core imitates a vanilla end obsidian platform destructor based on a wither."
+	  "text": "该概念核心模仿了原版的基于凋灵的末地黑曜石平台破坏器。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_lava",
-	  "text": "This concept core imitates a vanilla cobblestone generator based on a pointed dripstone."
+	  "text": "该概念核心模仿了原版的滴水石锥刷岩浆机。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_water",
-	  "text": "This concept core imitates a vanilla water source."
+	  "text": "该概念核心模仿了原版的无限水。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_sugar_cane",
-	  "text": "This concept core imitates a vanilla sugar cane farm based on an observer."
+	  "text": "该概念核心模仿了原版的基于侦测器的甘蔗农场。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_cactus",
-	  "text": "This concept core imitates a vanilla cactus farm."
+	  "text": "该概念核心模仿了原版的仙人掌农场。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_tree",
-      "text": "This concept core imitates a vanilla azalea farm."
+      "text": "该概念核心模仿了原版的杜鹃树场。"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "name": "概念核心-基础知识",
+  "icon": "sheathmagic:concept_core_cobblestone",
+  "category": "sheathmagic:concept_cores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "概念核心的本质是一种装入原版机械的空间水晶。要使用它们，您需要一个 $(l:io_tools/interoperation_wand)世界交互法杖$() 或者一个 $(l:io_tools/world_interoperator)世界交互机$() 。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "概念核心在使用后会进入一段时间的冷却，其值根据概念核心的类型而定。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "每种概念核心的效果可以在其他条目中查看。"
+    }
+  ]
+}

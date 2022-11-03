@@ -1,19 +1,19 @@
 {
-  "name": "Base Knowledge of Concept Cores",
+  "name": "Base Knowledge of concept cores",
   "icon": "sheathmagic:concept_core_cobblestone",
   "category": "sheathmagic:concept_cores",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The concept core is crafted with a space crystal. To use the concept core, you need an $(l:io_tools/interoperation_wand)Interoperation Wand$() or a $(l:io_tools/world_interoperator)World Interoperator$() machine."
+      "text": "Concept core is a kind of space crystal with a corresponding vanilla machinery inside. To use them, you need an $(l:io_tools/interoperation_wand)Interoperation Wand$() or a $(l:io_tools/world_interoperator)World Interoperator$() machine."
     },
     {
       "type": "patchouli:text",
-      "text": "Per using the concept core, you need to wait until it has cooled down. The cooling down time limit differs from each concept core. "
+      "text": "Concept cores will enter a cooling time after use, and its value varies according to the type of concept core. "
     },
     {
       "type": "patchouli:text",
-      "text": "The effect of each concept core can be learned from other entries."
+      "text": "The effect of each concept core can be checked from other entries."
     }
   ]
 }

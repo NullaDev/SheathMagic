@@ -1,5 +1,5 @@
 {
-  "name": "Special Concept Cores",
+  "name": "Concept cores with special effects",
   "icon": "sheathmagic:concept_core_level_eater",
   "category": "sheathmagic:concept_cores",
   "pages": [
@@ -10,37 +10,37 @@
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_bone_meal",
-      "text": "Fertilizes as bone meal."
+      "text": "This concept core imitates a vanilla bone meal farm. Use it as a vanilla bone meal!"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_bone_meal_advanced",
-      "text": "Fertilizes as bone meal and cools down faster than Bone Meal Concept Core."
+      "text": "This concept core imitates a vanilla bone meal farm based on a moss block. It cools down faster than the above one."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_drain",
-      "text": "Storm Drain! Works as a sponge block."
+      "text": "Storm Drain! This concept core imitates the function of a vanilla sponge block, and can be dried automatically."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_frame_breaker",
-      "text": "Breaks the ender portal frame."
+      "text": "This concept core imitates the bug of destroying an ender portal frame by a giant mushroom. Use it carefully."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_level_eater",
-      "text": "Eat the chunk you stand."
+      "text": "This concept core imitates a duplicate tnt bomber, which can directly destroy everything that can be exploded within a chunk. Use it carefully."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_tnt",
-      "text": "Spawns a TNT on your face."
+      "text": "This concept core imitates the vanilla TNT replication bug, and can spawn a primed TNT on your face."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_villager_spawn",
-      "text": "Spawns a villager on your face."
+      "text": "This concept core imitates a vanilla villager spawn farm, and can spawn a villager on your face."
     }
   ]
 }

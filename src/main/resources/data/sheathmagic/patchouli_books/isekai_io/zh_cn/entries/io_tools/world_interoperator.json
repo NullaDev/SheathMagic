@@ -1,0 +1,16 @@
+{
+  "name": "世界交互机",
+  "icon": "sheathmagic:world_interoperator",
+  "category": "sheathmagic:io_tools",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:world_interoperator",
+      "text": "使用概念核心的力量来生产物品的机器。输出取决于内部的概念核心。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这台机器具有3x9插槽的缓冲区，您可以通过除顶侧之外的每一侧取出物品。顶侧用于概念核心的存取。"
+    }
+  ]
+}

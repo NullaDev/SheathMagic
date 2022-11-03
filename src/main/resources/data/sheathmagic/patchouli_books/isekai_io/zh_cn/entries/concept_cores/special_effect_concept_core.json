@@ -1,0 +1,46 @@
+{
+  "name": "具有特殊效果的概念核心",
+  "icon": "sheathmagic:concept_core_level_eater",
+  "category": "sheathmagic:concept_cores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这些概念核心与 $(l:io_tools/interoperation_wand)世界交互法杖$() 组装后可以发挥各种奇特的用途。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_bone_meal",
+	  "text": "该概念核心模仿了原版的骨粉农场，可以像原版的骨粉一样使用。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_bone_meal_advanced",
+      "text": "该概念核心模仿了原版的基于苔藓块的骨粉农场，且具有更短的冷却时间。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_drain",
+      "text": "群海兔，时不时来引水！该概念核心模仿了原版海绵的功能，并且可以自动烘干。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_frame_breaker",
+      "text": "该概念核心模仿了使用巨型蘑菇破坏末地传送门框架的特性，慎用。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_level_eater",
+      "text": "该概念核心模仿了TNT轰炸机，能直接把你脚下区块一切能炸的东西炸平。慎用。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_tnt",
+      "text": "该概念核心模仿了原版的TNT复制特性，能在你脚下刷出一个点燃的TNT。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_villager_spawn",
+      "text": "该概念核心模仿了原版的村民繁殖农场，能在你脚下刷出一个村民。"
+    }
+  ]
+}

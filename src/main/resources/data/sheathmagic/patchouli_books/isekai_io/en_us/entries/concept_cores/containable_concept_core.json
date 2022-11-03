@@ -1,31 +1,31 @@
 {
-  "name": "Also containers Concept Cores",
+  "name": "Concept cores need fillings",
   "icon": "sheathmagic:concept_core_farm",
   "category": "sheathmagic:concept_cores",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "These Concept Cores are containers. They need contents to properly work. Fill the content by the way of $(l:io_tools/interoperation_wand)Interoperation Wand$(). "
+      "text": "These kind of concept cores are still semi-finished ones, which still need additional fillings to determine their work. Fill the content by the way of $(l:io_tools/interoperation_wand)Interoperation Wand$(). "
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_attachment",
-      "text": "This container accepts any $(2)vanilla carpets and rails$(). Within an $(l:io_tools/interoperation_wand)Interoperation Wand$(), it can place the block in the world."
+      "text": "This concept core accepts any $(2)vanilla carpets and rails$(). Its work is based on the vanilla bug of carpet or rail duplication caused by high-speed reciprocating slime block."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_falling_block",
-      "text": "This container accepts $(2)sand and gravel$(). Within an $(l:io_tools/interoperation_wand)Interoperation Wand$(), it can place the block in the world."
+      "text": "This concept core accepts $(2)sand and gravel$(). Its work is based on the vanilla bug of falling block duplication caused by end portal."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_farm",
-      "text": "This container accepts $(2)beetroot seed, carrot, potato and wheat seed$(). Within an $(l:io_tools/interoperation_wand)Interoperation Wand$(), it can recover your saturation."
+      "text": "This concept core accepts $(2)beetroot seed, carrot, potato and wheat seed$(). Its work is based on a vanilla villager farm."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_melon",
-      "text": "This container accepts $(2)melon seed and pumpkin seed$(). Within an $(l:io_tools/interoperation_wand)Interoperation Wand$(), it can recover your saturation or place a pumpkin."
+      "text": "This concept core accepts $(2)melon seed and pumpkin seed$(). Its work is based on a vanilla piston melon farm."
     }
   ]
 }

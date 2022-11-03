@@ -1,0 +1,12 @@
+{
+  "name": "无限之能源",
+  "icon": "sheathmagic:infinite_fuel",
+  "category": "sheathmagic:miscellaneous",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:infinite_fuel",
+      "text": "这是一种能够不断吐出地毯的神奇物品，放置于任何需要燃料的地方都永远不会烧完。"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Space crystal is the first step to this mod. Most mod items should be crafted in space crystal. The space crystal has three types, each has different crafting slots. Most importantly, the space crystal will be consumed by recipes. Use JEI to check the recipes."
+      "text": "Space crystal is a container used to hold small spaces. By placing inside the recipe of the abstract shape of some vanilla machines, the space crystal will become the corresponding concept core. You can view these recipes using JEI."
     },
     {
       "type": "patchouli:spotlight",

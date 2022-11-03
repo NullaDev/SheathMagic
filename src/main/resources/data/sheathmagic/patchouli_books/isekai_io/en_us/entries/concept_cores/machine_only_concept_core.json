@@ -1,5 +1,5 @@
 {
-  "name": "Only used in machine Concept Cores",
+  "name": "Concept cores only used in machine",
   "icon": "sheathmagic:concept_core_gold",
   "category": "sheathmagic:concept_cores",
   "pages": [
@@ -10,27 +10,27 @@
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_ghast",
-      "text": "Output what vanilla ghast drops."
+      "text": "This concept core imitates a vanilla ghast farm, outputs the drop of ghasts."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_gold",
-      "text": "Output what vanilla piglin drops."
+      "text": "This concept core imitates a vanilla piglin farm, outputs the drop of piglins."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_iron",
-      "text": "Output what vanilla iron golem drops."
+      "text": "This concept core imitates a vanilla iron golem farm, outputs the drop of iron golems."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_mob_grinder",
-      "text": "Output what vanilla mobs drop."
+      "text": "This concept core imitates a vanilla mob grinder, outputs the mixing of vanilla mobs' drop."
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_shulker_shell",
-      "text": "Output shulker shells."
+      "text": "This concept core imitates a vanilla shulker farm, outputs shulker shells."
     }
   ]
 }

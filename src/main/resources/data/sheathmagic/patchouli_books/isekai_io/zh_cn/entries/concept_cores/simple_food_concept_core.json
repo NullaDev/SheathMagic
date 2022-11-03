@@ -1,26 +1,26 @@
 {
-  "name": "Eatable concept cores",
+  "name": "能吃的概念核心",
   "icon": "sheathmagic:concept_core_cooked_chicken",
   "category": "sheathmagic:concept_cores",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "These Concept Cores assembled with the $(l:io_tools/interoperation_wand)Interoperation Wand$() can recover the user's saturation. "
+      "text": "这些概念核心与 $(l:io_tools/interoperation_wand)世界交互法杖$() 组装后使用可以恢复使用者的饥饿度和饱食度。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_cooked_chicken",
-	  "text": "This concept core imitates a vanilla chicken farm with lava."
+	  "text": "该概念核心模仿了原版的鸡农场，并且使用熔岩处死。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_cooked_porkchop",
-	  "text": "This concept core imitates a vanilla Hoglin farm with lava."
+	  "text": "该概念核心模仿了原版的疣猪兽农场，并且使用熔岩处死。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_glow_berries",
-	  "text": "This concept core imitates a vanilla glow berry farm."
+	  "text": "该概念核心模仿了原版的发光浆果农场。"
     }
   ]
 }

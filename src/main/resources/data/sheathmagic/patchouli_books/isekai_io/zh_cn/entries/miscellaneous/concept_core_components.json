@@ -1,0 +1,76 @@
+{
+  "name": "概念核心组件",
+  "icon": "sheathmagic:world_interoperation_io",
+  "category": "sheathmagic:miscellaneous",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这里展示了本mod中那些仅用于合成的组件。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_amplifier",
+      "text": "该物品用于增幅概念核心的力量。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:world_interoperation_io",
+      "text": "该物品提供了在世界间交互的能力。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_pulse",
+      "text": "该物品模拟了快速的红石脉冲。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_ender_update",
+      "text": "该物品模拟了通过向末地门投掷物品来更新末地的能力。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_dark_box",
+      "text": "该物品模拟了刷怪的黑箱。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_falling",
+      "text": "该物品模拟了刷怪塔的摔落处死。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_shulker",
+      "text": "该物品模拟了一个潜影贝。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_snow_golem",
+      "text": "该物品模拟了一个雪傀儡。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_wither",
+      "text": "该物品模拟了一个凋灵。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_pulse_controllable",
+      "text": "该物品模拟了可调的红石脉冲。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_piston_worm",
+      "text": "该物品模拟了一个活塞虫。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_villager",
+      "text": "该物品模拟了一个村民。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:core_modifier_endermite",
+      "text": "该物品模拟了一个末影螨。"
+    }
+  ]
+}

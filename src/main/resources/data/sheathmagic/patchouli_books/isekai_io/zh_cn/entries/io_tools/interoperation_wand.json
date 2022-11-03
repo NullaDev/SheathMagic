@@ -1,0 +1,20 @@
+{
+  "name": "世界交互法杖",
+  "icon": "sheathmagic:interoperation_wand",
+  "category": "sheathmagic:io_tools",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:interoperation_wand",
+      "text": "一根用来和世界产生交互的法杖。你需要将它与一个概念核心进行组装后才能使用，效果取决于概念核心。 "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "要将法杖与概念核心组装在一起，请右键单击概念核心并移动到法杖上，然后再次右键单击将其嵌入。您也可以拿起法杖并移动到概念核心上，然后再次右键将其吃掉。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "要取下概念核心，您可以直接右键单击内部有概念核心的法杖，或者右键拿起魔杖并将其移动到一个空格上，然后右键单击以吐出概念核心。"
+    }
+  ]
+}

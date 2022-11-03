@@ -1,0 +1,26 @@
+{
+  "name": "空间水晶",
+  "icon": "sheathmagic:space_crystal_basic",
+  "category": "sheathmagic:io_tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "空间水晶是一种用于装载小型稳定空间的容器。通过在内部放置某些原版机械的抽象结构所对应的合成表，空间水晶将变为对应的概念核心。您可以使用JEI查看这些合成表。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:space_crystal_basic",
+      "text": "基础空间水晶，含有3x3大小的合成槽。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:space_crystal_advanced",
+      "text": "进阶空间水晶，含有4x4大小的合成槽。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:space_crystal_ultimate",
+      "text": "终极空间水晶，含有5x5大小的合成槽。"
+    }
+  ]
+}

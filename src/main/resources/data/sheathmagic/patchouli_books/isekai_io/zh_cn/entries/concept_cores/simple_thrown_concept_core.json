@@ -1,26 +1,26 @@
 {
-  "name": "Concept cores of thrown item",
+  "name": "用于投掷的概念核心",
   "icon": "sheathmagic:concept_core_egg",
   "category": "sheathmagic:concept_cores",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "These Concept Cores assembled with the $(l:io_tools/interoperation_wand)Interoperation Wand$() can throw out a projectile. "
+      "text": "这些概念核心与 $(l:io_tools/interoperation_wand)世界交互法杖$() 组装后使用可以扔出对应的投掷物。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_egg",
-	  "text": "This concept core imitates a vanilla chicken farm."
+	  "text": "该概念核心模仿了原版的鸡农场。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_ender_pearl",
-	  "text": "This concept core imitates a vanilla enderman farm."
+	  "text": "该概念核心模仿了原版的末影人农场。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sheathmagic:concept_core_snowball",
-	  "text": "This concept core imitates a vanilla snowball farm, using TNTs to destroy snow produced by a snow golem."
+	  "text": "该概念核心模仿了原版的雪球农场，使用TNT炸毁雪傀儡产生的雪片。"
     }
   ]
 }

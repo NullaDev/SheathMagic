@@ -1,0 +1,36 @@
+{
+  "name": "仅用于机器的概念核心",
+  "icon": "sheathmagic:concept_core_gold",
+  "category": "sheathmagic:concept_cores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这些概念核心仅用于放置在 $(l:io_tools/world_interoperator)世界交互机$() 中进行生产，其产物可以在JEI中查询。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_ghast",
+      "text": "该概念核心模仿了原版的恶魂农场，输出为恶魂的掉落物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_gold",
+      "text": "该概念核心模仿了原版的猪灵农场，输出为猪灵的掉落物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_iron",
+      "text": "该概念核心模仿了原版的铁傀儡农场，输出为铁傀儡的掉落物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_mob_grinder",
+      "text": "该概念核心模仿了原版的黑箱农场，输出为原版怪物掉落物的混合物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "sheathmagic:concept_core_shulker_shell",
+      "text": "该概念核心模仿了原版的潜影贝农场，输出潜影壳。"
+    }
+  ]
+}
